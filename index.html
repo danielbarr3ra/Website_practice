@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Celidon Green | portafolio</title>
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
@@ -12,10 +13,10 @@
   <div class="container">
     <div class="navbar">
       <div class="logo">
-        <img src="images/logo.jpg" width="125px">
+        <img src="images/footer.png" width="125px">
       </div>
       <nav>
-        <ul>
+        <ul id="MenuItems">
           <li><a href="">Home</a></li>
           <li><a href="">Pieces</a></li>
           <li><a href="">About</a></li>
@@ -24,6 +25,8 @@
         </ul>
       </nav>
       <img src="images/carticon.png" width="30px" height="30px">
+      <img src="images/menu.png" class="menu-icon" 
+      onclick="menutogglle()">
     </div>
     <div class="row">
       <div class="col-2">
@@ -108,6 +111,212 @@
           <p>$100</p>
         </div>
       </div>
+      <h2 class="title"> Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/art2.jpg">
+          <h4>Fature1</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100</p>
+        </div>
+        <div class="col-4">
+          <img src="images/art6.jpg">
+          <h4>Fature2</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100</p>
+        </div>
+        <div class="col-4">
+          <img src="images/art7.jpg">
+          <h4>Fature3</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100</p>
+        </div>
+        <div class="col-4">
+          <img src="images/art8.jpg">
+          <h4>Fature4</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$100</p>
+        </div>
+      </div>
     </div>
+<!--Offer---------------------------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="images/art1.jpg" class="offer-img">
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on CelidonGreen</p>
+            <h1>Great Art</h1>
+            <small>this is great art, i put a lot of worth
+              into this beautiful piece of work.this is great art, i put a lot of worth
+              into this beautiful piece of work.this is great art, i put a lot of worth
+              into this beautiful piece of work.
+            </small>
+            <a href="" class='btn'>Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+<!----testimonial-->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class = "fa fa-quote-left"></i>
+            <p>
+              this has been the best art purhcase
+              I have don in for ever
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/Daniel_1.jpg">
+            <h3>Daniel Bar</h3>
+          </div>
+          <div class="col-3">
+            <i class = "fa fa-quote-left"></i>
+            <p>
+              this has been the best art purhcase
+              I have don in for ever
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/Daniel_1.jpg">
+            <h3>Daniel Bar</h3>
+          </div>
+          <div class="col-3">
+            <i class = "fa fa-quote-left"></i>
+            <p>
+              this has been the best art purhcase
+              I have don in for ever
+            </p>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <img src="images/Daniel_1.jpg">
+            <h3>Daniel Bar</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--------brands------->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="images/logo-1.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-2.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-3.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-4.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-5.png">
+      </div>
+  </div>
+</div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Dowwnload our app for android and ios</p>
+          <div class="app-logo">
+            <img src="images/app logo ios.png">
+            <img src="images/app logo ios.png">
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/footer.png">
+          <p>Our goal is to make you happy with my art</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Join Patreon</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2020</p>
+    </div>
+  </div>
+  <!---javascript function to toggle menu-->
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight="0px";
+
+    function menutogglle() {
+      if (MenuItems.style.maxHeight=="0px")
+      {
+        MenuItems.style.maxHeight="200px";
+      }
+      else
+      {
+        MenuItems.style.maxHeight="0px";
+      }
+    }
+  </script>
+  
 </body>
 </html>
